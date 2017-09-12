@@ -235,7 +235,7 @@ public class DashboardSummary extends InstrumentedFragment
 
     @Override
     public void onConditionsChanged() {
-        Log.d(TAG, "onConditionsChanged");
+        //Log.d(TAG, "onConditionsChanged");
         mAdapter.setConditions(mConditionManager.getConditions());
     }
 
